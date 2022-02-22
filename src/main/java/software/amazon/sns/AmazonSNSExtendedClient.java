@@ -1,6 +1,6 @@
 package software.amazon.sns;
 
-import com.amazon.sqs.javamessaging.SQSExtendedClientConstants;
+import com.amazon.sdkv2.sqs.javamessaging.SQSExtendedClientConstants;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

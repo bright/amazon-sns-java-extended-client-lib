@@ -29,8 +29,8 @@ The library relies on the Payload Offloading Java Common Library for AWS for mes
 Below is the code sample that creates a sample topic and queue, subscribes the queue to receive messages from the topic and publishes a test message. The message payload is stored in S3 and the reference to it is published. The SQS Extended Client is used to receive the message.
 
 ```java
-import com.amazon.sqs.javamessaging.AmazonSQSExtendedClient;
-import com.amazon.sqs.javamessaging.ExtendedClientConfiguration;
+import com.amazon.sdkv2.sqs.javamessaging.AmazonSQSExtendedClient;
+import com.amazon.sdkv2.sqs.javamessaging.ExtendedClientConfiguration;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.CreateBucketRequest;

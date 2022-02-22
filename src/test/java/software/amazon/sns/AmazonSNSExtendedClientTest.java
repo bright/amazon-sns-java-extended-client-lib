@@ -1,6 +1,6 @@
 package software.amazon.sns;
 
-import com.amazon.sqs.javamessaging.SQSExtendedClientConstants;
+import com.amazon.sdkv2.sqs.javamessaging.SQSExtendedClientConstants;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
